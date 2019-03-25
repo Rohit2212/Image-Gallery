@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<head><title>Image Gallery</title>
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="final.css">
+
+</head>
+<body>
+    <h1>Turf Image Gallery</h1>
+    <div class="first-div">
+        
+    <img class="image" onclick="openmodal();currentSlide(1);manav=1" src="officialimages/off1.jpg">
+    <img class="image" onclick="openmodal();currentSlide(2);manav=2" src="officialimages/off2.jpg">
+    <img class="image" onclick="openmodal();currentSlide(3);manav=3" src="officialimages/off3.jpg">
+    <img class="image" onclick="openmodal();currentSlide(4);manav=4" src="officialimages/off4.jpg">
+    <img class="image" onclick="openmodal();currentSlide(5);manav=5" src="officialimages/off5.jpg">
+    <img class="image" onclick="openmodal();currentSlide(6);manav=6" src="officialimages/off6.jpg">
+    <img class="image" onclick="openmodal();currentSlide(7);manav=7" src="officialimages/off7.jpg">
+    <img class="image" onclick="openmodal();currentSlide(8);manav=8" src="officialimages/off8.jpg">
+    <img class="image" onclick="openmodal();currentSlide(9);manav=9" src="officialimages/off9.jpg">
+    <img class="image" onclick="openmodal();currentSlide(10);manav=10" src="officialimages/off10.jpg">
+    <img class="image" onclick="openmodal();currentSlide(11);manav=11" src="officialimages/off11.jpg">
+    <img class="image" onclick="openmodal();currentSlide(12);manav=12" src="officialimages/off12.jpg">
+</div>
+
+    
+    <div id="myModal" class="modal">
+         <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div>
+        <img class="showSlides" src="imagesfinal/t1trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t2trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t3trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t4trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t5trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t6trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t7trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t8trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t9trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t10trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t11trial.jpg" style="width: 100%">
+        </div>
+        <div>
+        <img class="showSlides" src="imagesfinal/t12trial.jpg" style="width: 100%">
+        </div>
+           
+           
+             <a class="next" onclick="manav+=1;currentSlide(manav)">&#10095;</a>
+             <a class="prev" onclick="manav-=1;currentSlide(manav)" >&#10094;</a>
+
+        
+        
+    </div>
+    
+    
+    </div>
+<script src="final.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+
+</body>

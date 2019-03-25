@@ -1,0 +1,74 @@
+.image{
+    margin: 10px 10px;
+    transition: 0.3s;
+}
+.showSlides{
+    display: none;
+ 
+}
+h1{
+    text-align: center;
+    color: coral;
+    padding: 10px 40px;
+    user-select: none;
+}
+.first-div{
+   text-align: center;
+    
+}
+.image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.modal{
+    display: none;
+   position: fixed;
+    padding-top: 80px;
+    z-index: 1;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+
+}
+.modal-content{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    background-color: bisque;
+    width: 90%;
+    max-width: 1200px;
+    
+    
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color:antiquewhite;
+    
+}
+.close:hover{
+    cursor: pointer;
+    color: dimgray;
+}
+.prev,.next{
+    position: absolute;
+    top: 50%;
+/*    transform: translate(-50%,-50%);*/
+    padding: 10px;
+    background: brown;
+    transition: 0.6s ease;
+    border-radius: 0px 4px 4px 0px;
+/*    z-index: 100;*/
+    
+}
+.next{
+    right: 0%;
+/*    transform: translate(-50%,-50%);*/
+    
+}
+.prev:hover,.next:hover{
+    cursor: pointer;
+    background-color: beige;
+    
+}
